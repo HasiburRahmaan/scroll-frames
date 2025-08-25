@@ -1,0 +1,30 @@
+.slider_arrow_btn svg {
+  fill: #ff4306;
+}
+
+.slider_arrow_btn:disabled {
+  svg {
+    path {
+      fill: #414042;
+    }
+  }
+  border: 1px solid #414042;
+}
+.slider_arrow_btn.white_arrow:disabled,
+.dark .slider_arrow_btn:disabled {
+  svg {
+    path {
+      fill: #f4f4f4;
+    }
+  }
+  border: 1px solid #f4f4f4;
+}
+
+// .dark .slider_arrow_btn:disabled {
+//   svg {
+//     path {
+//       fill: #f4f4f4;
+//     }
+//   }
+//   border: 1px solid #f4f4f4;
+// }
