@@ -1,7 +1,11 @@
+'use client'
+import FrameAnimation from "@/components/pages/FrameAnimation";
+
 export default function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
+      <FrameAnimation />
+      <div className="h-[200px]"></div>
     </div>
   );
 }
